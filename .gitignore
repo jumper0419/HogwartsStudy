@@ -1,3 +1,4 @@
 /.env/
 /.idea/
 /.git/
+/.pytest_cache/
