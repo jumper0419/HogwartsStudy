@@ -31,6 +31,9 @@ https://github.com/jumper0419/HogwartsStudy
      * pytest  - - junitxml=./result.xml：生成执行结果文件
        + 配合allure生成好看的测试报告
      * pytest  --setup-show：回溯fixture的执行过程
+    
+##元素定位
+- ![img.png](img.png)
 
 ##python
 - 命名规范：https://zh-google-styleguide.readthedocs.io/en/latest/google-python-styleguide/python_style_rules/#id16
