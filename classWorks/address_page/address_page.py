@@ -1,3 +1,4 @@
+from random import random
 from time import sleep
 
 from selenium.webdriver.common.by import By
@@ -22,8 +23,8 @@ class AddressPage:
 
         WebDriverWait(self.driver, 10).until(wait_add)
         self.driver.find_element_by_id('username').send_keys(self.username)
-        self.driver.find_element_by_css_selector('#memberAdd_acctid').send_keys(self.acctid)
-        self.driver.find_element_by_xpath('//*[@id="memberAdd_phone"]').send_keys(self.phone)
+        self.driver.find_element_by_css_selector('#memberAdd_acctid').send_keys(self.acctid+int(random()*100))
+        self.driver.find_element_by_xpath('//*[@id="memberAdd_phone"]').send_keys(self.phone+int(random()*100))
         self.driver.find_elements(By.XPATH, "//*[@class='qui_btn ww_btn js_btn_save']")[0].click()
 
 
