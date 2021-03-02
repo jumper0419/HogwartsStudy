@@ -9,8 +9,6 @@
 1）实现首页的实例化，然后通过实例化对象进行调用
 
 """
-from random import random
-
 import pytest
 import yaml
 
