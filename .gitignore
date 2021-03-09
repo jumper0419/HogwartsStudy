@@ -2,5 +2,5 @@
 /.idea/
 /.git/
 /.pytest_cache/
-/ __pycache__/
+__pycache__
 /webAuto/geckodriver.log
