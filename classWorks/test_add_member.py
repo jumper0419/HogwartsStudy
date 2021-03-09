@@ -16,7 +16,7 @@ from classWorks.address_page.index_page import IndexPage
 
 
 class TestAddMember:
-    @pytest.mark.parametrize('username, phone, acctid', yaml.safe_load(open('./data/add_member.yaml', encoding='utf-8')))
+    @pytest.mark.parametrize('username, phone, acctid', yaml.safe_load(open('data/add_member.yml', encoding='utf-8')))
     def test_add_member(self, username, phone, acctid):
         index = IndexPage(username=username, phone=phone, acctid=acctid)
         index.goto_address().add_member()

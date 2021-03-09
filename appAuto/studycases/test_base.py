@@ -1,7 +1,7 @@
 # -*- encoding: UTF-8 -*-
 from time import sleep
 
-from appAuto.base import Base
+from appAuto.studycases.base import Base
 
 
 class TestApp(Base):

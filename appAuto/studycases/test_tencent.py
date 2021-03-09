@@ -21,7 +21,8 @@ class TestApp:
         desired_caps["skipDeviceInitialization"] = True  # 跳过设备初始化，例如安装，权限设置等操作
         desired_caps["skipServerInstallation"] = True  # 跳过uiautomator2server的安装
         desired_caps["settings[waitForIdleTimeout]"] = 0  # 德昂带页面空闲的时间
-        desired_caps["newCommandTimeout"] = 300
+        # desired_caps["newCommandTimeout"] = 300
+        desired_caps["dontStopAppOnReset"] = True
         self.driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_caps)
         self.driver.implicitly_wait(10)
 
@@ -34,11 +35,10 @@ class TestApp:
         daka_locat = (MobileBy.XPATH, "//*[@class='android.view.ViewGroup']//*[@text='工作台']")
         WebDriverWait(self.driver, 20).until(expected_conditions.element_to_be_clickable(daka_locat))
         self.driver.find_element(*daka_locat).click()
-        # self.driver.find_element(MobileBy.XPATH, "//*[@class='android.view.ViewGroup']//*[@text='工作台']").click()
-        # driver.find_element_by_android_uiautomator(‘new
-        # UiScrollable(new
-        # UiSelector().’
-        # ‘scrollable(true).instance(0)).’
-        # ‘scrollIntoView(new
-        # UiSelector().textContains(“病人”).’
-        # ‘instance(0));’).click()
+
+    def test_del_contact(self):
+        sleep(20)
+        self.driver.find_element(MobileBy.XPATH, "//*[@text='通讯录']").click()
+        self.driver.find_element(MobileBy.XPATH, "//*[@text='搜索']").send_keys("李四")
+        elements = self.driver.find_elements(MobileBy.XPATH, "//*[@text='李四']")
+        print(len(elements))
