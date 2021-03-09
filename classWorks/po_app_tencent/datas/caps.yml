@@ -1,0 +1,14 @@
+caps:
+     platformName : "android"
+     deviceName : "emulator-5554"
+     appPackage : "com.tencent.wework"
+     appActivity : ".launch.LaunchSplashActivity"
+     noReset : "true"
+     skipDeviceInitialization : "true"
+     dontStopAppOnReset : "true"
+     settings:
+     - waitForIdleTimeout : 1
+  
+server:
+    host: 127.0.0.1
+    port: 4723

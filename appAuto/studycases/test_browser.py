@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 
-from appAuto.base_browser import Base
+from appAuto.studycases.base_browser import Base
 
 
 class TestApp(Base):

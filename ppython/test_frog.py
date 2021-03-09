@@ -1,28 +1,37 @@
-L = 10
-S, T, M = 2, 3, 5
-doip_list = [2,3,5,6,7]
-# print(type(doip_list))
-# dopi_list = doip.split(" ")
-# print(dopi_list)
-pass_len = 0
-pass_doip_list = [0]
-# print(S, T)
-while pass_len < L:
-#     len = lambda x: x for x in range(S, T+1)
-    for len in range(S, T+1):
-        # print(len)
-        pass_len += len
-        pass_doip_list.append(pass_len)
-set_pass = set(pass_doip_list)
-set_dopi = set(doip_list)
-# print(set_pass)
-# print(set_dopi)
-jj_list = set_pass.intersection(set_dopi)
-print(jj_list)
-print(jj_list.__len__())
+#青蛙过河：
+import sys
+def getDiffDist(point, list):
+    result = []
+    for i in list:
+        result.append(i - point)
+    return result
 
+while True:
+    try:
+        L = int(sys.stdin.readline().strip())
+        l2 = sys.stdin.readline().strip().split()
+        S, T, M = int(l2[0]), int(l2[1]), int(l2[2])
+        l3 = sys.stdin.readline().strip().split()
+        sz_list = []
+        for i in l3:
+            sz_list.append(int(i))
 
-# print((lambda x: x + 1)(2))
-x = [lambda x: x for x in range(10)]
-print(x[0])
+        cnt = 0
+        curPoint = 0
+        while curPoint <= L:
+            #可能跳的point
+            can_point = set(range(S+curPoint, T+curPoint+1))
+            print(f"can_point: {can_point}")
+            same_point = set(sz_list).intersection(can_point)
+            max_point = max(same_point)
+            print(same_point, '\n', max_point)
+            curPoint += max_point
+            cnt +=1
+        print(cnt)
+    except:
+        break
+# L = 10
+# S, T, M = 2, 3, 5
+# doip_list = [2,3,5,6,7]
+
 
