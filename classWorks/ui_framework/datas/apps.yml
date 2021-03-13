@@ -1,0 +1,16 @@
+server:
+  host: 127.0.0.1
+  port: 4723
+
+caps:
+  platformName: "android"
+  deviceName: "device"
+  appPackage: "com.xueqiu.android"
+  appActivity: ".common.MainActivity"
+  noReset: "true"
+  skipDeviceInitialization: "true"
+  unicodeKeyboard: "true"
+  resetKeyboard: "true"
+#  dontStopAppOnReset: "true"
+  settings:
+    - waitForIdleTimeout: 1
