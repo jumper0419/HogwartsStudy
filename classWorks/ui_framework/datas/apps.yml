@@ -6,7 +6,7 @@ caps:
   platformName: "android"
   deviceName: "device"
   appPackage: "com.xueqiu.android"
-  appActivity: ".common.MainActivity"
+  appActivity: ".view.WelcomeActivityAlias"
   noReset: "true"
   skipDeviceInitialization: "true"
   unicodeKeyboard: "true"
