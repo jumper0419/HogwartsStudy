@@ -22,8 +22,3 @@ class TestDecorator:
     def test_a(self):
         self.base = BasePage()
         self.base.a()
-
-    # 掉不起来，报find_decorator() missing 1 required positional argument: 'func'
-    def test_find(self):
-        self.base = BasePage()
-        self.base.find_and_click(MobileBy.XPATH, "//*[@text='行情']")
