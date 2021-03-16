@@ -1,0 +1,7 @@
+- "//*[@text='下次再说']"
+- "//*[@resource-id='com.xueqiu.android:id/iv_close']"
+- "//*[@resource-id='com.xueqiu.android:id/iv_left']"
+- "//*[@text='与投资无关']"
+- "//*[@text='不感兴趣']"
+- "//*[@text='不看该股票']"
+- "//*[@text='不看该用户']"

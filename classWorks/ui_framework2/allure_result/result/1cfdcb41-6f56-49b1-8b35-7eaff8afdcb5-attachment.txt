@@ -1,0 +1,7 @@
+INFO: scrcpy 1.17 <https://github.com/Genymobile/scrcpy>
+INFO: Recording started to mp4 file: G:\HogwartsStudy\classWorks\ui_framework2\result\record.mp4
+[2021-03-16 15:50:58,972]  decorator.py:12:wrapper: find xpath//*[@resource-id="com.xueqiu.android:id/post_status"]
+[2021-03-16 15:51:03,326]  decorator.py:12:wrapper: find xpath//*[@text='行情']
+[2021-03-16 15:51:09,224]  decorator.py:18:wrapper: find exe_xpath//*[@text='下次再说']
+[2021-03-16 15:51:14,432]  decorator.py:18:wrapper: find exe_xpath//*[@resource-id='com.xueqiu.android:id/iv_close']
+[2021-03-16 15:51:15,503]  decorator.py:12:wrapper: find xpath//*[@resource-id="com.xueqiu.android:id/action_search"]

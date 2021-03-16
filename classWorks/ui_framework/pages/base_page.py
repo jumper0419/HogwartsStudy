@@ -9,16 +9,16 @@ class BasePage:
 
     @find_decorator
     def find(self, locator, value):
-        self.driver.find_element(locator, value)
+        return self.driver.find_element(locator, value)
 
     def finds(self, locator, value):
-        self.driver.find_elements(locator, value)
+        return self.driver.find_elements(locator, value)
 
     @find_decorator
     def find_and_click(self, locator, value):
         self.driver.find_element(locator, value).click()
 
-    def find_and_sendKeys(self, locator, value, text):
+    def find_and_send(self, locator, value, text):
         self.driver.find_element(locator, value).send_keys(text)
 
     @b
