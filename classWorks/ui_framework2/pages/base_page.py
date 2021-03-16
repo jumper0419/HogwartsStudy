@@ -4,7 +4,6 @@ import yaml
 from appium.webdriver.webdriver import WebDriver
 
 from classWorks.ui_framework2.pages.decorator import handle_blacklist
-logging.basicConfig(level=logging.DEBUG)
 from classWorks.ui_framework2.pages.logger import log_init
 
 
@@ -21,7 +20,6 @@ class BasePage:
 
     @handle_blacklist
     def find_and_click(self, locator, value):
-        logging.info("hello")
         self.driver.find_element(locator, value).click()
 
     def find_and_send(self, locator, value, text):
