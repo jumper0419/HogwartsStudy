@@ -1,0 +1,5 @@
+[32mINFO    [0m Ui_Framework:decorator.py:12 find xpath//*[@resource-id="com.xueqiu.android:id/post_status"]
+[32mINFO    [0m Ui_Framework:decorator.py:12 find xpath//*[@text='行情']
+[35mDEBUG   [0m Ui_Framework:decorator.py:18 find exe_xpath//*[@text='下次再说']
+[35mDEBUG   [0m Ui_Framework:decorator.py:18 find exe_xpath//*[@resource-id='com.xueqiu.android:id/iv_close']
+[32mINFO    [0m Ui_Framework:decorator.py:12 find xpath//*[@resource-id="com.xueqiu.android:id/action_search"]

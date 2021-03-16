@@ -1,0 +1,26 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_decorator",
+    "children" : [ {
+      "name" : "TestDecorator",
+      "children" : [ {
+        "name" : "test_hangqing",
+        "uid" : "e2ed3c8386ea7a93",
+        "parentUid" : "636e873ed3d7c57ed8413ce20e0aded9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615881058968,
+          "stop" : 1615881078510,
+          "duration" : 19542
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "636e873ed3d7c57ed8413ce20e0aded9"
+    } ],
+    "uid" : "8da7a974425faf01b19a92ee3d8017ea"
+  } ]
+}

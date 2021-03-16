@@ -1,0 +1,2 @@
+F:\api_autoTest_tools\scrcpy\scrcpy-server: 1 file pushed, 0 skipped. 40.3 MB/s (34930 bytes in 0.001s)
+[server] INFO: Device: Netease MuMu (Android 6.0.1)

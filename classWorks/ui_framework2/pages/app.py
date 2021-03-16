@@ -1,20 +1,17 @@
-import yaml
 from appium import webdriver
 
-from classWorks.ui_framework.pages.base_page import BasePage
-from classWorks.ui_framework.pages.main_page import MainPage
+from classWorks.ui_framework2.pages.base_page import BasePage
+from classWorks.ui_framework2.pages.main_page import MainPage
 
-with open('../datas/apps.yml') as f:
-    datas = yaml.safe_load(f)
-caps = datas["caps"]
-host = datas["server"]["host"]
-port = datas["server"]["port"]
-print(host, port)
 
 class App(BasePage):
 
     def start(self):
         if self.driver == None:
+            caps = self.get_datas('../datas/apps.yml', 'caps')
+            server = self.get_datas('../datas/apps.yml', 'server')
+            host = server['host']
+            port = server['port']
             self.driver = webdriver.Remote(f"http://{host}:{port}/wd/hub", caps)
             self.driver.implicitly_wait(5)
         else:

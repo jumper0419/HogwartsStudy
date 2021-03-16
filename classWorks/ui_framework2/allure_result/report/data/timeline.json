@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "tangjuan-d5",
+    "children" : [ {
+      "name" : "27516-MainThread",
+      "children" : [ {
+        "name" : "test_hangqing",
+        "uid" : "e2ed3c8386ea7a93",
+        "parentUid" : "123fa7f3e98915a6d46ecac330df8290",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615881058968,
+          "stop" : 1615881078510,
+          "duration" : 19542
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "123fa7f3e98915a6d46ecac330df8290"
+    } ],
+    "uid" : "4efe499b662077e747625db76c59c5a9"
+  } ]
+}
