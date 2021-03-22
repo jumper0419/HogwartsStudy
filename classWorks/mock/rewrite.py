@@ -22,11 +22,10 @@ class rewrite:
         change_percent = abs(raw_percent)
       data["data"]["items"][0]["quote"]["percent"] = change_percent
       # 例子三：测试股票涨跌幅的边界值
-      test_value = [-100, -0, 0, +0, -0.01, 100]
-      for value in test_value:
-        data["data"]["items"][0]["quote"]["percent"] = value
-        flow.response.text = json.dumps(data)
-        sleep(3)
+      test_value = [-10000, -0.5, -0.01, -0, +0, +0.01734, 100, 20000000]
+      for index in range(len(test_value)):
+        data["data"]["items"][index+1]["quote"]["percent"] = test_value[index]
+      flow.response.text = json.dumps(data)
 
 addons = [
   rewrite()
