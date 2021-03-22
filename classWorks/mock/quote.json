@@ -1,0 +1,72 @@
+{
+  "data": {
+    "items": [
+      {
+        "market": {
+          "status_id": 7,
+          "region": "HK",
+          "status": "已收盘",
+          "time_zone": "Asia/Shanghai",
+          "time_zone_desc": null
+        },
+        "quote": {
+          "symbol": "00700",
+          "code": "00700",
+          "exchange": "HK--->上市",
+          "name": "Jumper0419",
+          "type": 30,
+          "sub_type": "256",
+          "status": 1,
+          "current": 633000000.5,
+          "currency": "HKD",
+          "percent": 0.88,
+          "chg": 5.5,
+          "timestamp": 1616400510000,
+          "time": 1616400510000,
+          "lot_size": 100,
+          "tick_size": 0.5,
+          "open": 630.5,
+          "last_close": 628.0,
+          "high": 643.5,
+          "low": 629.5,
+          "avg_price": 634.3409,
+          "volume": 14012535,
+          "amount": 8.876749536065E9,
+          "turnover_rate": 0.15,
+          "amplitude": 2.23,
+          "market_capital": 6.078131163689E12,
+          "float_market_capital": 6.078131163689E12,
+          "total_shares": 9594524331,
+          "float_shares": 9594524331,
+          "issue_date": 1087315200000,
+          "lock_set": null,
+          "current_year_percent": 12.32,
+          "high52w": 775.5,
+          "low52w": 339.2518,
+          "variable_tick_size": "0.001 0.25 0.005 0.5 0.01 10.00 0.02 20.00 0.05 100.00 0.1 200.00 0.2 500.00 0.5 1000.00 1.00 2000.00 2.00 5000.00 5.00",
+          "volume_ratio": 0.59,
+          "eps": 14.5791,
+          "pe_ttm": 43.4526,
+          "pe_forecast": 39.8338,
+          "pe_lyr": 58.2692,
+          "navps": 72.0708,
+          "pb": 8.79,
+          "dividend": 1.19,
+          "dividend_yield": 0.19,
+          "psr": 11.073,
+          "profit_forecast": 1.52587092E11,
+          "profit": 1.0431124899999998E11,
+          "profit_four": 1.398794592E11,
+          "shareholder_funds": 6.914848146E11
+        },
+        "others": {
+          "cyb_switch": true
+        },
+        "tags": []
+      }
+    ],
+    "items_size": 1
+  },
+  "error_code": 0,
+  "error_description": ""
+}
