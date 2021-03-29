@@ -1,0 +1,15 @@
+-
+  userid: 'kenan01'
+  name: 'kenan'
+  mobile: '12345645257'
+  department: [1]
+-
+  userid: 'kenan02'
+  name: 'kenan'
+  mobile: '12345645256'
+  department: [2]
+-
+  userid: 'kenan03'
+  name: 'kenan'
+  mobile: '12345645259'
+  department: [1, 2]
