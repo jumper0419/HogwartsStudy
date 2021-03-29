@@ -1,7 +1,4 @@
-import json
-
 import requests
-import yaml
 
 
 class Base:
