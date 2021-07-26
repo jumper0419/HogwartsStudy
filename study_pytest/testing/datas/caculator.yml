@@ -1,0 +1,25 @@
+add:
+  int:
+    datas:
+      - [1, 2, 3]
+      - [100, 200, 300]
+      - [-1, 1, 0]
+      - [1, 0, 1]
+      - [-1, -2, -3]
+    ids: ["small_num", "big_num", "fushu_add_zhengshu", "add_zero", "fushu"]
+  float:
+    datas:
+      - [0.1, 0.1, 0.2]
+      - [0.1, 0.2, 0.3]
+    ids: ["add1", "add2"]
+div:
+  normal:
+    datas:
+      - [2, 1, 2]
+      - [100, 200, 0.5]
+    ids: []
+  error:
+    datas:
+      - [1, 0, 2]
+      - ["aaaa", "bbbb", "cccc"]
+    ids: []
