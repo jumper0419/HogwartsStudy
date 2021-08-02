@@ -1,0 +1,123 @@
+{
+  "uid" : "f4edcd9bd6466150",
+  "name" : "add_-1",
+  "fullName" : "test_caculator_allure.TestCacultor#test_add_int",
+  "historyId" : "d6e837dbdc681496cb60dbd5f58a8b71",
+  "time" : {
+    "start" : 1627293246009,
+    "stop" : 1627293246010,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_add_int_datas",
+    "time" : {
+      "start" : 1627293246009,
+      "stop" : 1627293246009,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "get_instance",
+    "time" : {
+      "start" : 1627293246009,
+      "stop" : 1627293246009,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "get_add_int_datas::0",
+    "time" : {
+      "start" : 1627293246010,
+      "stop" : 1627293246010,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "get_instance::0",
+    "time" : {
+      "start" : 1627293246011,
+      "stop" : 1627293246011,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "计算器"
+  }, {
+    "name" : "story",
+    "value" : "相加功能"
+  }, {
+    "name" : "tag",
+    "value" : "add"
+  }, {
+    "name" : "suite",
+    "value" : "test_caculator_allure"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCacultor"
+  }, {
+    "name" : "host",
+    "value" : "tangjuan-d5"
+  }, {
+    "name" : "thread",
+    "value" : "968-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_caculator_allure"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "get_add_int_datas",
+    "value" : "[-1, 1, 0]"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "add" ]
+  },
+  "source" : "f4edcd9bd6466150.json",
+  "parameterValues" : [ "[-1, 1, 0]" ]
+}
