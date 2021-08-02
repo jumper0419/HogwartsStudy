@@ -1,3 +1,5 @@
+from typing import List
+
 import pytest
 import sys
 sys.path.append("../../")
@@ -26,3 +28,13 @@ def get_div_normal_datas(request):
 @pytest.fixture(params=HandleDatas.get_caculator_datas("div", "error")[0])
 def get_div_error_datas(request):
   yield request.param
+
+
+def pytest_collection_modifyitems(
+    session: "Session", config: "Config", items: List["Item"]
+) -> None:
+  # for item in items:
+  #   item.name = item.name.encode("utf-8").decode("unicode-escape")
+  #   item._nodeid = item._nodeid.encode("utf-8").decode("unicode-escape")
+  items.reverse()
+
