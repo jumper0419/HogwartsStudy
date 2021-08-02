@@ -1,0 +1,5 @@
+normal:
+  datas:
+    - color: -1
+      permissions: show_only_free_busy
+      summary: "我被修改了"

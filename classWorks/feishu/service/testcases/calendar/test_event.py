@@ -1,0 +1,2 @@
+class TestEvent:
+  pass

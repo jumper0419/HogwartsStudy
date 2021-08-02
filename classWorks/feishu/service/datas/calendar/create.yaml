@@ -1,0 +1,6 @@
+normal:
+  - summary: "this is a test"
+    description: "使用开放接口创建日历"
+    permissions: "public"
+    color: 255
+    summary_alias: "日历备注名"
